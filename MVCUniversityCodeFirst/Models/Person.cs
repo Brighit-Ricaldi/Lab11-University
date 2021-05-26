@@ -21,18 +21,14 @@ namespace MVCUniversityCodeFirst.Models
         [StringLength(50, ErrorMessage = "Nombre no puede ser superior a 50 caracteres.")]
         [Column("FirstName")]
         [Display(Name = "First Name")]
-
         public string FirstMidName { get; set; }
 
         [Display(Name = "Full Name")]
-
         public string FullName
         {
             get {
                 return LastName + ", " + FirstMidName;
             }
         }
-
-
     }
 }

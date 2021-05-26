@@ -18,7 +18,7 @@ namespace MVCUniversityCodeFirst.Controllers
         // GET: Students
         public ActionResult Index()
         {
-            return View(db.People.ToList());
+            return View(db.Students.ToList());
         }
 
         // GET: Students/Details/5
@@ -126,3 +126,30 @@ namespace MVCUniversityCodeFirst.Controllers
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
